@@ -4,23 +4,28 @@
 
 ## Actividades Disponibles
 
+0. **Numeros en java**
+
+   Una implementación simple de "Hola Mundo" pero con numeros en Java.
+   - [Carpeta](./Numeros)
+
 1. **Hola Mundo en Java**
 
    Una implementación simple de "Hola Mundo" en Java.
-   - [Carpeta](./PRACTICAS 1,2,3/HelloJava)
+   - [Carpeta](./PRACTICAS1,2,3/HelloJava)
 
 3. **Hola Mundo en Python**
    
    Una implementación básica de "Hola Mundo" en Python.
-   -  [Carpeta](./PRACTICAS 1,2,3/HelloPython)
+   -  [Carpeta](./PRACTICAS1,2,3/HelloPython)
 
 4. **Número del Mes**
    Un programa que convierte un número de mes en su nombre correspondiente.
-   - [Carpeta](./PRACTICAS 1,2,3/NumeroMes)
+   - [Carpeta](./PRACTICAS1,2,3/NumeroMes)
 
 5. **Calculadora**
    Una calculadora que realiza operaciones aritméticas simples.
-   - [Carpeta](./PRACTICAS 1,2,3/Calculadora)
+   - [Carpeta](./PRACTICAS1,2,3/Calculadora)
 
 Siéntete libre de explorar las carpetas de las actividades para ver mis soluciones. ¡Gracias por visitar mi repositorio!
 
