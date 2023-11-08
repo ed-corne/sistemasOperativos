@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #2f2f2f;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+h2{
+  padding-top: 2rem;
+}
+
+.mlq-page{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: #5b9d3f;
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.lbl{
+  font-size: 1.5rem;
+  padding: .5rem;
+  font-weight: 400;
+}
+
+.input-number{
+  height: 2rem;
+  border-radius: 8px;
+  width: 50%;
+  color: #2f2f2f;
+  background-color: #f2f2f2;
+}
+
+.card-progress{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.--form{
+  padding: 3rem 0;
+}
+
+.btn{
+  width: 100%;
+}
+
+
+.progress-bar {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  
+}
+
+
+
+.high::-webkit-progress-value {
+  background: linear-gradient(to right, #cf868c, #d42534) ; /* Estilo para la barra de alta prioridad */
+  animation: fill-high 2s forwards;
+}
+
+.medium::-webkit-progress-value {
+  background: linear-gradient(to right, #e4d59b, #e8c021) ; /* Estilo para la barra de prioridad media */
+  animation: fill-medium 2s forwards;
+}
+
+.low::-webkit-progress-value {
+  background: linear-gradient(to right, #b0be8d, #a1c34b) ; /* Estilo para la barra de baja prioridad */
+  animation: fill-low 2s forwards;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f2f2f2;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
