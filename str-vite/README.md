@@ -1,8 +1,24 @@
-# React + Vite
+# Planificador SRT (Shortest Remaining Time) React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Su característica distintiva es la selección basada en el tiempo restante; prioriza el proceso con el tiempo restante más corto para completarse en lugar de considerar prioridades o tiempos de llegada. Esta elección se realiza de forma continua, con actualizaciones periódicas de las estimaciones de tiempo restante a medida que un proceso se ejecuta. 
 
-Currently, two official plugins are available:
+1. 🌿 El programa pregunta el número de procesos iniciales y al presionar el botón de agregar trabajos se generan de manera aleatoria.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    ![inicio](./src/assets/Imagen3.png)
+
+2. ☘️ después al presionar el botón de ejecutar trabajos procede a ejecutar el algoritmo SRT para los procesos.
+
+    ![ejecucion](./src/assets/Imagen4.png)
+
+3. 🌱 Aquí se muestra el programa durante la ejecución. 
+
+    ![grafica](./src/assets/Imagen5.png)
+
+4. 🪴Al terminar de ejecutar todos los procesos se muestran todos en la parte de Procesos terminados, en el orden en el que se ejecutaron los procesos.
+
+    ![fin](./src/assets/Imagen6.png)
+
+
+--------------------------------------------
+
+Edwin Cornejo 👨🏻‍💻💚.
